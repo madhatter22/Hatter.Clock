@@ -12,7 +12,7 @@
         AllowsTransparency="True"
         WindowStyle="None">
     <Grid Background="#01000000">
-        <tb:TaskbarIcon IconSource="clock_128.ico" >
+        <tb:TaskbarIcon IconSource="clock_128.ico" ToolTipText="Hatter Clock" >
             <tb:TaskbarIcon.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Exit" Click="MenuItem_OnClick"></MenuItem>
